@@ -108,7 +108,7 @@
     position: absolute;
     width: 60%;
     left: 45%;
-    top: 45%;
+    top: 40%;
     z-index: 2;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
@@ -116,6 +116,78 @@
 .imagenes{
     display: flex;
     justify-content: center;
+}
+
+
+.texto{
+    padding: 30px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    gap:10px;
+}
+
+.texto h2{
+    font-weight: bold;
+}
+
+.texto p{
+    padding-top: 20px;
+}
+
+
+.lora-texto1 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-size: 1.2rem;
+    font-weight:500;
+    font-style: normal;
+    color: #555;
+}
+
+.work-sans-texto2 {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    color:#555;
+  }
+
+.contenedor-pie{
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #2a2a2a;
+    color:white;
+}
+
+.address p,
+.useful-links p,
+.services p,
+.about p{
+    color:#999;
+    font-size: 0.9rem;
+}
+
+.address h3,
+.contacts h3,
+.useful-links h3,
+.services h3,
+.about h3,
+.social-media h3{
+    font-size: 1.3rem;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconos a{
+    color: white;
 }
 
 
